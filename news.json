@@ -1,0 +1,61 @@
+{
+ "updated": "2026-11-13T10:04:44.095Z",
+ "status": {
+  "OWASP GenAI Security Project": "failed: fetch failed",
+  "Embrace The Red": "failed: fetch failed",
+  "EU AI Act Newsletter": "failed: fetch failed",
+  "NIST News": "failed: fetch failed",
+  "CISA News": "failed: fetch failed",
+  "Simon Willison": "failed: fetch failed",
+  "Schneier on Security": "failed: fetch failed",
+  "Google Security Blog": "failed: fetch failed",
+  "The Hacker News": "failed: fetch failed",
+  "BleepingComputer": "failed: fetch failed",
+  "Dark Reading": "failed: fetch failed",
+  "Microsoft Security Blog": 6
+ },
+ "items": [
+  {
+   "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+   "date": "2026-11-12T17:00:00.000Z",
+   "source": "Microsoft Security Blog",
+   "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on"
+  },
+  {
+   "title": "Detecting sleeper agents hiding in AI model neurons",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+   "date": "2026-11-10T23:00:00.000Z",
+   "source": "Microsoft Security Blog",
+   "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can"
+  },
+  {
+   "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+   "date": "2026-11-09T20:17:31.000Z",
+   "source": "Microsoft Security Blog",
+   "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced tru"
+  },
+  {
+   "title": "ARTEX abuse expands as cybercriminals target financial sector",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+   "date": "2026-11-07T02:44:34.000Z",
+   "source": "Microsoft Security Blog",
+   "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blo"
+  },
+  {
+   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+   "date": "2026-11-05T23:46:50.000Z",
+   "source": "Microsoft Security Blog",
+   "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s te"
+  },
+  {
+   "title": "​​​​What’s new in Microsoft Security: November 2026",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
+   "date": "2026-11-05T17:00:00.000Z",
+   "source": "Microsoft Security Blog",
+   "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management. The post ​​​​What’s new in Microsoft Security: November 2026 appeared first on Microsoft Security Blog ."
+  }
+ ]
+}

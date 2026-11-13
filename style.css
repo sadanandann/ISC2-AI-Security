@@ -14,6 +14,7 @@ button:hover{border-color:var(--acc)}button.on,button.pri{background:var(--acc);
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.grow{flex:1}
 .tag{display:inline-block;background:var(--acc2);color:var(--acc);border-radius:6px;padding:1px 8px;font-size:.8rem;margin:2px 4px 2px 0}
 a{color:var(--acc)}label{cursor:pointer}input[type=checkbox]{width:18px;height:18px;accent-color:var(--acc);vertical-align:-3px}
+select{font:inherit;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 input[type=text],textarea{font:inherit;width:100%;padding:9px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 .bar{height:10px;background:var(--line);border-radius:5px;overflow:hidden;flex:1;min-width:80px}.bar i{display:block;height:100%;background:var(--acc)}
 .opt{display:block;width:100%;text-align:left;margin:6px 0;white-space:normal}.opt.ok{border-color:var(--acc);background:var(--acc2)}.opt.no{border-color:var(--bad);color:var(--bad)}
