@@ -8,6 +8,7 @@ Interactive study site for the ISC2 AI Security pilot exam (15 December 2026), b
 - **Cards**: flashcards
 - **ML Lab**: TF-IDF search and a Naive Bayes domain classifier, both running in the browser
 - **News**: AI security headlines from public RSS feeds, refreshed every 6 hours by a GitHub Action (`scripts/fetch-news.mjs` writes `news.json`; edit the `FEEDS` list there to add or remove sources)
+- **Notes**: each day has a "Submit to repo" button that saves the notes as `notes/YYYY-MM-DD_day-NN.md` via the GitHub API, using a fine-grained token stored only in the browser
 
 Static site, no build step, no dependencies. Open `index.html`, or enable GitHub Pages (Settings, Pages, deploy from branch `main`, root).
 

@@ -18,7 +18,27 @@ function go(v){view=v;$("#nav").innerHTML=Object.keys(VIEWS).map(k=>`<button cla
 function dayCard(i,open){const d=DAYS[i],dn=S.done[i];
  return `<div class="card ${i==todayIdx?"today":""} ${dn&&!open?"done":""}"><div class="row"><label class="grow"><input type="checkbox" ${dn?"checked":""} onchange="S.done[${i}]=this.checked;save();go(view)"> <b>Day ${i+1}, ${fmt(date(i))}</b></label><span class="mute">${d[0]<7?"Domain "+d[0]:"Final review"}</span></div>
  <div>${tags(d[1])}</div><h3>Hour 1: learn</h3><div>${link(d[2])}</div><h3>Hour 2: recall</h3><div>${link(d[3])}</div>
- <details ${S.notes[i]||open?"open":""}><summary>My notes</summary><textarea rows="4" placeholder="Write what you remember, in your own words" oninput="S.notes[${i}]=this.value;save()">${esc(S.notes[i]||"")}</textarea></details></div>`}
+ <details ${S.notes[i]||open?"open":""}><summary>My notes</summary><textarea rows="4" placeholder="Write what you remember, in your own words" oninput="S.notes[${i}]=this.value;save()">${esc(S.notes[i]||"")}</textarea>
+ <div class="row" style="margin-top:8px"><button class="pri" onclick="submitNote(${i})">Submit to repo</button><span class="mute grow" id="st${i}">${S.sent&&S.sent[i]?"Last submitted "+new Date(S.sent[i]).toLocaleString("en-GB"):"Saved in this browser as you type"}</span></div></details></div>`}
+// Save a day's notes as a dated Markdown file in the GitHub repo (needs a token kept only in this browser)
+const REPO=(location.hostname.endsWith(".github.io")?location.hostname.split(".")[0]+"/"+location.pathname.split("/")[1]:"")||"sadanandann/ISC2-AI-Security",TK="isc2ai_token";
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+function askToken(i){$("#st"+i).innerHTML=`First time only: paste a GitHub token that can write to this repo. <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Create one</a> (fine-grained, only repository ${esc(REPO)}, permission Contents: Read and write). It is stored in this browser only.<span class="row" style="margin-top:6px"><input type="password" id="tk${i}" class="grow" placeholder="github_pat_..." style="padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)"><button onclick="const v=document.getElementById('tk${i}').value.trim();if(v){localStorage.setItem(TK,v);submitNote(${i})}">Save token and submit</button></span>`}
+async function submitNote(i){const el=$("#st"+i),tk=localStorage.getItem(TK),txt=(S.notes[i]||"").trim();
+ if(!txt){el.textContent="Nothing to submit yet; write your notes first.";return}
+ if(!tk)return askToken(i);
+ const d=DAYS[i],path=`notes/${iso(date(i))}_day-${String(i+1).padStart(2,"0")}.md`,url=`https://api.github.com/repos/${REPO}/contents/${path}`,h={Authorization:"Bearer "+tk,Accept:"application/vnd.github+json"};
+ const md=`# Day ${i+1}, ${fmt(date(i))} 2026\n\n${d[0]<7?"Domain "+d[0]+": "+DOMAINS[d[0]]:"Final review"}\n\n${d[1]?"Tasks: "+d[1].split(" ").map(t=>t+" "+TASKS[t]).join("; ")+"\n\n":""}**Recall task:** ${d[3]}\n\n## My notes\n\n${txt}\n\n_Submitted ${new Date().toLocaleString("en-GB")}_\n`;
+ el.textContent="Submitting…";
+ try{let sha;const g=await fetch(url,{headers:h,cache:"no-store"});
+  if(g.status==401){localStorage.removeItem(TK);throw new Error("GitHub rejected the token. Submit again to enter a new one.")}
+  if(g.ok)sha=(await g.json()).sha;
+  const b64=btoa(String.fromCharCode(...new TextEncoder().encode(md)));
+  const r=await fetch(url,{method:"PUT",headers:h,body:JSON.stringify({message:`Notes: day ${i+1} (${iso(date(i))})`,content:b64,sha})});
+  if(!r.ok)throw new Error(r.status==403||r.status==404?"The token cannot write to this repository (needs Contents: Read and write).":"GitHub returned "+r.status);
+  const j=await r.json();S.sent=S.sent||{};S.sent[i]=Date.now();save();
+  el.innerHTML=`Submitted to <a href="${esc(j.content.html_url)}" target="_blank" rel="noopener">${esc(path)}</a>`}
+ catch(e){el.textContent="Not submitted: "+e.message}}
 function today(){const i=Math.min(Math.max(todayIdx,0),31),st=stats(),weak=Object.keys(st).sort((a,b)=>ML.mastery(...st[a])-ML.mastery(...st[b]))[0];
  const late=[];for(let k=0;k<Math.min(todayIdx,32);k++)if(!S.done[k])late.push(k);
  $("#main").innerHTML=(todayIdx<0?`<div class="card">The plan starts on ${fmt(START)}. Day 1 is shown below.</div>`:todayIdx>31?`<div class="card"><b>${todayIdx==32?"Exam day. No new material.":"The plan has ended."}</b></div>`:"")+dayCard(i,1)+
