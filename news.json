@@ -1,20 +1,48 @@
 {
- "updated": "2026-11-13T10:05:29.656Z",
+ "updated": "2026-11-13T19:42:18.025Z",
  "status": {
   "OWASP GenAI Security Project": 10,
+  "EU AI Act Newsletter": 20,
+  "Simon Willison": 20,
   "Embrace The Red": 231,
-  "EU AI Act Newsletter": "failed: HTTP 403",
   "CISA News": 0,
   "NIST News": 7,
-  "Simon Willison": 20,
   "Schneier on Security": 4,
   "Microsoft Security Blog": 6,
-  "BleepingComputer": 1,
-  "The Hacker News": 9,
-  "Dark Reading": 22,
-  "Google Security Blog": 7
+  "BleepingComputer": 2,
+  "The Hacker News": 11,
+  "Google Security Blog": 7,
+  "Dark Reading": 23
  },
  "items": [
+  {
+   "title": "How one AI agent exposed five critical enterprise security gaps",
+   "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+   "date": "2026-11-13T15:01:11.000Z",
+   "source": "BleepingComputer",
+   "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from indus"
+  },
+  {
+   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+   "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+   "date": "2026-11-13T14:28:58.000Z",
+   "source": "The Hacker News",
+   "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in th"
+  },
+  {
+   "title": "AI Doesn’t Have to Go Rogue to Break the World",
+   "link": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+   "date": "2026-11-13T12:03:30.000Z",
+   "source": "Schneier on Security",
+   "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop . I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other syst"
+  },
+  {
+   "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+   "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+   "date": "2026-11-13T11:52:31.000Z",
+   "source": "The Hacker News",
+   "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected too"
+  },
   {
    "title": "llm-gemini 0.37",
    "link": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
@@ -91,6 +119,13 @@
    "date": "2026-11-11T21:20:41.000Z",
    "source": "Dark Reading",
    "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement."
+  },
+  {
+   "title": "As Test Takers Turn to AI for Answers, Exam Security Must Catch Up",
+   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
+   "date": "2026-11-11T20:27:00.000Z",
+   "source": "Dark Reading",
+   "summary": "It's hard to detect whether someone is using artificial intelligence (AI) to cheat on IT certification exams, but new tools and processes are emerging to boost trust."
   },
   {
    "title": "llm 0.37.2",
@@ -217,6 +252,13 @@
    "date": "2026-11-10T08:16:14.000Z",
    "source": "The Hacker News",
    "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, "
+  },
+  {
+   "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
+   "date": "2026-11-10T07:58:06.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The AI Office proposes requirements for independent external evaluators of GPAI models with systemic risk, and analysts examine the EU's testing capacity and gaps in incident reporting."
   },
   {
    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
@@ -401,6 +443,13 @@
    "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation."
   },
   {
+   "title": "How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really",
+   "date": "2026-11-03T07:31:14.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
+  },
+  {
    "title": "October sponsors-only newsletter",
    "link": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
    "date": "2026-11-03T05:28:59.000Z",
@@ -443,11 +492,11 @@
    "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs)."
   },
   {
-   "title": "Bloatware in Aftermarket Auto Parts",
-   "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
-   "date": "2026-10-30T15:20:02.000Z",
-   "source": "Schneier on Security",
-   "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware"
+   "title": "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special",
+   "date": "2026-10-20T05:29:31.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Scientific Panel briefs Virkkunen on recent incidents, the AI Office investigates OpenAI and Anthropic, and the first harmonised AI Act standard is published."
   },
   {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
@@ -464,11 +513,39 @@
    "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP T"
   },
   {
+   "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
+   "date": "2026-10-06T05:34:16.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Commission backs an international AI safety monitoring body but faces criticism at home over the pace and resourcing of AI Act enforcement."
+  },
+  {
    "title": "From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)",
    "link": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
    "date": "2026-09-30T21:00:40.000Z",
    "source": "Embrace The Red",
    "summary": "Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft&rsquo;s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Mic"
+  },
+  {
+   "title": "How Does the EU AI Office Enforce the AI Act? (with Lucilla Sioli)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-does-the-eu-ai-office-enforce",
+   "date": "2026-09-30T06:48:06.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
+  },
+  {
+   "title": "The EU AI Act Newsletter #111: Pacing the Frontier",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-111-pacing",
+   "date": "2026-09-23T05:51:11.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Von der Leyen puts frontier AI risk at the centre of her State of the Union address, while the AI Office confirms OpenAI did not file a report on the RubyGems incident."
+  },
+  {
+   "title": "How the AI Act Was Negotiated and What Comes Next (with Brando Benifei)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-the-ai-act-was-negotiated-and",
+   "date": "2026-09-17T05:35:32.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
   }
  ]
 }
