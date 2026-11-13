@@ -35,9 +35,10 @@ async function submitNote(i){const el=$("#st"+i),tk=localStorage.getItem(TK),txt
   if(g.ok)sha=(await g.json()).sha;
   const b64=btoa(String.fromCharCode(...new TextEncoder().encode(md)));
   const r=await fetch(url,{method:"PUT",headers:h,body:JSON.stringify({message:`Notes: day ${i+1} (${iso(date(i))})`,content:b64,sha})});
-  if(!r.ok)throw new Error(r.status==403||r.status==404?"The token cannot write to this repository (needs Contents: Read and write).":"GitHub returned "+r.status);
+  if(r.status==403||r.status==404){localStorage.removeItem(TK);throw new Error((r.status==404?"the token has no access to "+REPO+" (under Repository access choose Only select repositories and pick it)":"the token can read but not write (set Repository permissions, Contents, to Read and write)")+". Edit the token on GitHub, then press Submit again and paste it.")}
+  if(!r.ok)throw new Error("GitHub returned "+r.status);
   const j=await r.json();S.sent=S.sent||{};S.sent[i]=Date.now();save();
-  el.innerHTML=`Submitted to <a href="${esc(j.content.html_url)}" target="_blank" rel="noopener">${esc(path)}</a>`}
+  el.innerHTML=`Submitted to <a href="${esc(j.content.html_url)}" target="_blank" rel="noopener">${esc(path)}</a>. <a href="#" onclick="localStorage.removeItem(TK);this.textContent='Token removed';return false">Remove saved token</a>`}
  catch(e){el.textContent="Not submitted: "+e.message}}
 function today(){const i=Math.min(Math.max(todayIdx,0),31),st=stats(),weak=Object.keys(st).sort((a,b)=>ML.mastery(...st[a])-ML.mastery(...st[b]))[0];
  const late=[];for(let k=0;k<Math.min(todayIdx,32);k++)if(!S.done[k])late.push(k);
