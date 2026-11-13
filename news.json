@@ -1,26 +1,152 @@
 {
- "updated": "2026-11-13T10:04:44.095Z",
+ "updated": "2026-11-13T10:05:29.656Z",
  "status": {
-  "OWASP GenAI Security Project": "failed: fetch failed",
-  "Embrace The Red": "failed: fetch failed",
-  "EU AI Act Newsletter": "failed: fetch failed",
-  "NIST News": "failed: fetch failed",
-  "CISA News": "failed: fetch failed",
-  "Simon Willison": "failed: fetch failed",
-  "Schneier on Security": "failed: fetch failed",
-  "Google Security Blog": "failed: fetch failed",
-  "The Hacker News": "failed: fetch failed",
-  "BleepingComputer": "failed: fetch failed",
-  "Dark Reading": "failed: fetch failed",
-  "Microsoft Security Blog": 6
+  "OWASP GenAI Security Project": 10,
+  "Embrace The Red": 231,
+  "EU AI Act Newsletter": "failed: HTTP 403",
+  "CISA News": 0,
+  "NIST News": 7,
+  "Simon Willison": 20,
+  "Schneier on Security": 4,
+  "Microsoft Security Blog": 6,
+  "BleepingComputer": 1,
+  "The Hacker News": 9,
+  "Dark Reading": 22,
+  "Google Security Blog": 7
  },
  "items": [
+  {
+   "title": "llm-gemini 0.37",
+   "link": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+   "date": "2026-11-12T22:55:19.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Mod"
+  },
+  {
+   "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+   "link": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+   "date": "2026-11-12T21:18:52.000Z",
+   "source": "Dark Reading",
+   "summary": "Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away."
+  },
+  {
+   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "date": "2026-11-12T20:15:16.000Z",
+   "source": "BleepingComputer",
+   "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]"
+  },
   {
    "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
    "date": "2026-11-12T17:00:00.000Z",
    "source": "Microsoft Security Blog",
    "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on"
+  },
+  {
+   "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+   "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+   "date": "2026-11-12T15:15:40.000Z",
+   "source": "The Hacker News",
+   "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed Typo"
+  },
+  {
+   "title": "Inside an AI Attack Against a US Retailer",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+   "date": "2026-11-12T11:00:00.000Z",
+   "source": "Dark Reading",
+   "summary": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes."
+  },
+  {
+   "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+   "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+   "date": "2026-11-12T01:00:00.000Z",
+   "source": "Dark Reading",
+   "summary": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite."
+  },
+  {
+   "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+   "date": "2026-11-12T00:00:00.000Z",
+   "source": "Dark Reading",
+   "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers."
+  },
+  {
+   "title": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
+   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
+   "date": "2026-11-11T22:14:44.000Z",
+   "source": "Dark Reading",
+   "summary": "この対策パッケージには、官民合同のサイバー対応チーム、経済省が主導するAI専門チーム、および政府の新たな能動的サイバー防衛権限の行使に関する裁量の拡大が含まれている。"
+  },
+  {
+   "title": "Gemini Decisions API",
+   "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+   "date": "2026-11-11T22:03:25.000Z",
+   "source": "Simon Willison",
+   "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/n"
+  },
+  {
+   "title": "AI Raises the Stakes for Cyber Resilience",
+   "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+   "date": "2026-11-11T21:20:41.000Z",
+   "source": "Dark Reading",
+   "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement."
+  },
+  {
+   "title": "llm 0.37.2",
+   "link": "https://simonwillison.net/2026/Nov/11/llm/",
+   "date": "2026-11-11T17:19:52.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API"
+  },
+  {
+   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+   "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+   "date": "2026-11-11T15:34:27.000Z",
+   "source": "The Hacker News",
+   "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed in"
+  },
+  {
+   "title": "Anthropic's IPO roadshow video",
+   "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+   "date": "2026-11-11T15:11:59.000Z",
+   "source": "Simon Willison",
+   "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, descri"
+  },
+  {
+   "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+   "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+   "date": "2026-11-11T12:19:40.000Z",
+   "source": "The Hacker News",
+   "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most "
+  },
+  {
+   "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+   "link": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+   "date": "2026-11-11T12:05:34.000Z",
+   "source": "Schneier on Security",
+   "summary": "It’s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voi"
+  },
+  {
+   "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+   "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+   "date": "2026-11-11T12:01:59.000Z",
+   "source": "The Hacker News",
+   "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This"
+  },
+  {
+   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+   "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+   "date": "2026-11-11T07:49:04.000Z",
+   "source": "The Hacker News",
+   "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund"
+  },
+  {
+   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+   "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "date": "2026-11-11T07:21:05.000Z",
+   "source": "The Hacker News",
+   "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with t"
   },
   {
    "title": "Detecting sleeper agents hiding in AI model neurons",
@@ -30,6 +156,111 @@
    "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can"
   },
   {
+   "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+   "date": "2026-11-10T21:01:14.000Z",
+   "source": "Dark Reading",
+   "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries."
+  },
+  {
+   "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+   "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+   "date": "2026-11-10T20:41:45.000Z",
+   "source": "Dark Reading",
+   "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene."
+  },
+  {
+   "title": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+   "link": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
+   "date": "2026-11-10T20:35:34.000Z",
+   "source": "Dark Reading",
+   "summary": "Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development."
+  },
+  {
+   "title": "llm-gemini 0.36",
+   "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+   "date": "2026-11-10T20:09:44.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5"
+  },
+  {
+   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+   "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "date": "2026-11-10T19:19:39.000Z",
+   "source": "The Hacker News",
+   "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidenti"
+  },
+  {
+   "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
+   "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+   "date": "2026-11-10T18:46:22.000Z",
+   "source": "Dark Reading",
+   "summary": "A command in Claude Code inadvertently saves files with credentials and other sensitive data to public Git repositories, creating security gaps for organizations."
+  },
+  {
+   "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+   "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "date": "2026-11-10T15:33:59.000Z",
+   "source": "The Hacker News",
+   "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of account"
+  },
+  {
+   "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+   "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
+   "date": "2026-11-10T13:00:00.000Z",
+   "source": "Dark Reading",
+   "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts."
+  },
+  {
+   "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+   "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+   "date": "2026-11-10T08:16:14.000Z",
+   "source": "The Hacker News",
+   "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, "
+  },
+  {
+   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+   "date": "2026-11-10T07:28:21.000Z",
+   "source": "Simon Willison",
+   "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat "
+  },
+  {
+   "title": "Quoting Prompting Claude Fable 5.2",
+   "link": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+   "date": "2026-11-10T05:34:14.000Z",
+   "source": "Simon Willison",
+   "summary": "Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else’s, even when that duplic"
+  },
+  {
+   "title": "Yonkers Rises",
+   "link": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+   "date": "2026-11-10T03:53:04.000Z",
+   "source": "Simon Willison",
+   "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animati"
+  },
+  {
+   "title": "llm-anthropic 0.31",
+   "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+   "date": "2026-11-09T23:58:46.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! "
+  },
+  {
+   "title": "Locating the source of a mysterious beep with Claude",
+   "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+   "date": "2026-11-09T23:57:21.000Z",
+   "source": "Simon Willison",
+   "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was f"
+  },
+  {
+   "title": "People Are Getting Weird About AI",
+   "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
+   "date": "2026-11-09T23:06:22.000Z",
+   "source": "Dark Reading",
+   "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility. The tendency for humans to anthropomorphize the conversations and interactions we're having with AI is growing into potential delusion."
+  },
+  {
    "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
    "date": "2026-11-09T20:17:31.000Z",
@@ -37,11 +268,67 @@
    "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced tru"
   },
   {
+   "title": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+   "link": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+   "date": "2026-11-09T18:08:30.000Z",
+   "source": "Dark Reading",
+   "summary": "Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine."
+  },
+  {
+   "title": "PwC's CISO on AI, Robots & What's Next for Security",
+   "link": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
+   "date": "2026-11-09T17:17:23.000Z",
+   "source": "Dark Reading",
+   "summary": "As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies."
+  },
+  {
+   "title": "AI Security",
+   "link": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+   "date": "2026-11-09T12:05:39.000Z",
+   "source": "Schneier on Security",
+   "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into "
+  },
+  {
+   "title": "Hide your slop PR descriptions behind",
+   "link": "https://simonwillison.net/2026/Nov/9/details-summary/",
+   "date": "2026-11-09T04:25:05.000Z",
+   "source": "Simon Willison",
+   "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished res"
+  },
+  {
    "title": "ARTEX abuse expands as cybercriminals target financial sector",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
    "date": "2026-11-07T02:44:34.000Z",
    "source": "Microsoft Security Blog",
    "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blo"
+  },
+  {
+   "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+   "link": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+   "date": "2026-11-06T21:27:36.000Z",
+   "source": "Dark Reading",
+   "summary": "The UK is betting on domestic AI and cyber investment to reduce reliance on US tech — but security leaders question whether the funding is too fragmented and too late."
+  },
+  {
+   "title": "AI Gave Your Incident Archive a Second Job",
+   "link": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
+   "date": "2026-11-06T18:27:30.000Z",
+   "source": "Dark Reading",
+   "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises."
+  },
+  {
+   "title": "Quoting Nilay Patel",
+   "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+   "date": "2026-11-06T17:13:12.000Z",
+   "source": "Simon Willison",
+   "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyo"
+  },
+  {
+   "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
+   "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
+   "date": "2026-11-06T09:00:00.000Z",
+   "source": "Dark Reading",
+   "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex."
   },
   {
    "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
@@ -56,6 +343,132 @@
    "date": "2026-11-05T17:00:00.000Z",
    "source": "Microsoft Security Blog",
    "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management. The post ​​​​What’s new in Microsoft Security: November 2026 appeared first on Microsoft Security Blog ."
+  },
+  {
+   "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+   "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+   "date": "2026-11-05T16:48:36.000Z",
+   "source": "Dark Reading",
+   "summary": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations."
+  },
+  {
+   "title": "datasette-llm 0.1a10",
+   "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+   "date": "2026-11-04T15:26:02.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: llm , datasette"
+  },
+  {
+   "title": "datasette-apps 0.3a0",
+   "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+   "date": "2026-11-04T00:29:36.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be ta"
+  },
+  {
+   "title": "llm 0.37.1",
+   "link": "https://simonwillison.net/2026/Nov/3/llm/",
+   "date": "2026-11-03T21:41:42.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm"
+  },
+  {
+   "title": "AI is destroying my CS degree",
+   "link": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
+   "date": "2026-11-03T16:42:02.000Z",
+   "source": "Simon Willison",
+   "summary": "My comment on AI is destroying my CS degree &mdash; Hacker News. I don't envy educators right now. AI clearly means you need to change how you teach and evaluate students. We are only a few years in though, and it's still extremely unclear what effective teaching with these tools"
+  },
+  {
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "date": "2026-11-03T16:29:48.000Z",
+   "source": "Simon Willison",
+   "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier mod"
+  },
+  {
+   "title": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
+   "link": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
+   "date": "2026-11-03T15:35:50.000Z",
+   "source": "Dark Reading",
+   "summary": "Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was revoked."
+  },
+  {
+   "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
+   "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
+   "date": "2026-11-03T14:00:00.000Z",
+   "source": "Dark Reading",
+   "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation."
+  },
+  {
+   "title": "October sponsors-only newsletter",
+   "link": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+   "date": "2026-11-03T05:28:59.000Z",
+   "source": "Simon Willison",
+   "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for"
+  },
+  {
+   "title": "llm 0.37",
+   "link": "https://simonwillison.net/2026/Nov/2/llm/",
+   "date": "2026-11-02T23:49:30.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure "
+  },
+  {
+   "title": "Microsoft's AI Risk Report Misses This Key Detail",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
+   "date": "2026-11-02T15:00:00.000Z",
+   "source": "Dark Reading",
+   "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks, but it doesn't mention that they are broadly being targeted through Microsoft bugs."
+  },
+  {
+   "title": "The U.S. Census Bureau and “Super Intelligence”",
+   "link": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+   "date": "2026-11-02T13:31:26.000Z",
+   "source": "Simon Willison",
+   "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used th"
+  },
+  {
+   "title": "AI Vulnerability Finding",
+   "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
+   "date": "2026-11-02T12:02:34.000Z",
+   "source": "Schneier on Security",
+   "summary": "A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is? Yes"
+  },
+  {
+   "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+   "date": "2026-10-30T20:05:58.000Z",
+   "source": "Dark Reading",
+   "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs)."
+  },
+  {
+   "title": "Bloatware in Aftermarket Auto Parts",
+   "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+   "date": "2026-10-30T15:20:02.000Z",
+   "source": "Schneier on Security",
+   "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware"
+  },
+  {
+   "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
+   "link": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
+   "date": "2026-10-13T22:00:40.000Z",
+   "source": "Embrace The Red",
+   "summary": "A . is all you need! Today Microsoft shipped the patch for a vulnerability in Visual Studio Copilot that I reported in August. Microsoft classified it as Important severity Remote Code Execution vulnerability. At the root cause it allows Copilot in Visual Studio or SQL Server Man"
+  },
+  {
+   "title": "GenAI and Agentic AI Exploit Roundup Q3 2026",
+   "link": "https://genai.owasp.org/2026/10/08/genai-and-agentic-ai-exploit-roundup-q3-2026/?utm_source=rss&utm_medium=rss&utm_campaign=genai-and-agentic-ai-exploit-roundup-q3-2026",
+   "date": "2026-10-08T12:07:42.000Z",
+   "source": "OWASP GenAI Security Project",
+   "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP T"
+  },
+  {
+   "title": "From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)",
+   "link": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
+   "date": "2026-09-30T21:00:40.000Z",
+   "source": "Embrace The Red",
+   "summary": "Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft&rsquo;s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Mic"
   }
  ]
 }
