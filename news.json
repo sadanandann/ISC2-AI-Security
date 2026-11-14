@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-14T18:00:16.561Z",
+ "updated": "2026-11-14T22:23:46.527Z",
  "status": {
+  "OWASP GenAI Security Project": 10,
   "Embrace The Red": 231,
   "EU AI Act Newsletter": "failed: HTTP 403",
   "Simon Willison": 19,
   "NIST News": 7,
-  "Schneier on Security": 3,
   "CISA News": 0,
-  "OWASP GenAI Security Project": 10,
+  "Schneier on Security": 3,
   "Microsoft Security Blog": 6,
   "BleepingComputer": 3,
   "The Hacker News": 11,
