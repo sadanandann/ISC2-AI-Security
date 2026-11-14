@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-13T19:42:18.025Z",
+ "updated": "2026-11-14T06:21:54.737Z",
  "status": {
   "OWASP GenAI Security Project": 10,
-  "EU AI Act Newsletter": 20,
-  "Simon Willison": 20,
   "Embrace The Red": 231,
+  "EU AI Act Newsletter": "failed: HTTP 403",
   "CISA News": 0,
   "NIST News": 7,
   "Schneier on Security": 4,
+  "Simon Willison": 19,
   "Microsoft Security Blog": 6,
   "BleepingComputer": 2,
-  "The Hacker News": 11,
+  "Dark Reading": 23,
   "Google Security Blog": 7,
-  "Dark Reading": 23
+  "The Hacker News": 11
  },
  "items": [
+  {
+   "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+   "link": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+   "date": "2026-11-13T20:20:27.000Z",
+   "source": "Dark Reading",
+   "summary": "The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information."
+  },
   {
    "title": "How one AI agent exposed five critical enterprise security gaps",
    "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
@@ -254,13 +261,6 @@
    "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, "
   },
   {
-   "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
-   "date": "2026-11-10T07:58:06.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The AI Office proposes requirements for independent external evaluators of GPAI models with systemic risk, and analysts examine the EU's testing capacity and gaps in incident reporting."
-  },
-  {
    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
    "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
    "date": "2026-11-10T07:28:21.000Z",
@@ -443,13 +443,6 @@
    "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation."
   },
   {
-   "title": "How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)",
-   "link": "https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really",
-   "date": "2026-11-03T07:31:14.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
-  },
-  {
    "title": "October sponsors-only newsletter",
    "link": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
    "date": "2026-11-03T05:28:59.000Z",
@@ -471,32 +464,11 @@
    "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks, but it doesn't mention that they are broadly being targeted through Microsoft bugs."
   },
   {
-   "title": "The U.S. Census Bureau and “Super Intelligence”",
-   "link": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
-   "date": "2026-11-02T13:31:26.000Z",
-   "source": "Simon Willison",
-   "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used th"
-  },
-  {
    "title": "AI Vulnerability Finding",
    "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
    "date": "2026-11-02T12:02:34.000Z",
    "source": "Schneier on Security",
    "summary": "A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is? Yes"
-  },
-  {
-   "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
-   "date": "2026-10-30T20:05:58.000Z",
-   "source": "Dark Reading",
-   "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs)."
-  },
-  {
-   "title": "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special",
-   "date": "2026-10-20T05:29:31.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The Scientific Panel briefs Virkkunen on recent incidents, the AI Office investigates OpenAI and Anthropic, and the first harmonised AI Act standard is published."
   },
   {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
@@ -513,39 +485,11 @@
    "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP T"
   },
   {
-   "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
-   "date": "2026-10-06T05:34:16.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The Commission backs an international AI safety monitoring body but faces criticism at home over the pace and resourcing of AI Act enforcement."
-  },
-  {
    "title": "From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)",
    "link": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
    "date": "2026-09-30T21:00:40.000Z",
    "source": "Embrace The Red",
    "summary": "Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft&rsquo;s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Mic"
-  },
-  {
-   "title": "How Does the EU AI Office Enforce the AI Act? (with Lucilla Sioli)",
-   "link": "https://artificialintelligenceact.substack.com/p/how-does-the-eu-ai-office-enforce",
-   "date": "2026-09-30T06:48:06.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
-  },
-  {
-   "title": "The EU AI Act Newsletter #111: Pacing the Frontier",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-111-pacing",
-   "date": "2026-09-23T05:51:11.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Von der Leyen puts frontier AI risk at the centre of her State of the Union address, while the AI Office confirms OpenAI did not file a report on the RubyGems incident."
-  },
-  {
-   "title": "How the AI Act Was Negotiated and What Comes Next (with Brando Benifei)",
-   "link": "https://artificialintelligenceact.substack.com/p/how-the-ai-act-was-negotiated-and",
-   "date": "2026-09-17T05:35:32.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
   }
  ]
 }
