@@ -1,20 +1,97 @@
 {
- "updated": "2026-11-16T06:27:39.328Z",
+ "updated": "2026-11-16T22:00:22.837Z",
  "status": {
-  "Embrace The Red": 231,
   "EU AI Act Newsletter": "failed: HTTP 403",
+  "Embrace The Red": 231,
   "OWASP GenAI Security Project": 10,
-  "Simon Willison": 17,
-  "CISA News": 0,
   "NIST News": 7,
+  "CISA News": 0,
   "Schneier on Security": 3,
+  "Simon Willison": 17,
   "Microsoft Security Blog": 6,
-  "The Hacker News": 11,
-  "BleepingComputer": 4,
+  "The Hacker News": 13,
+  "BleepingComputer": 7,
   "Google Security Blog": 7,
-  "Dark Reading": 23
+  "Dark Reading": 25
  },
  "items": [
+  {
+   "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+   "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+   "date": "2026-11-16T21:31:44.000Z",
+   "source": "BleepingComputer",
+   "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]"
+  },
+  {
+   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+   "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "date": "2026-11-16T20:59:44.000Z",
+   "source": "BleepingComputer",
+   "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks again"
+  },
+  {
+   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+   "date": "2026-11-16T19:57:13.000Z",
+   "source": "BleepingComputer",
+   "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]"
+  },
+  {
+   "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+   "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
+   "date": "2026-11-16T19:56:05.000Z",
+   "source": "Dark Reading",
+   "summary": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly."
+  },
+  {
+   "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+   "date": "2026-11-16T19:10:03.000Z",
+   "source": "Dark Reading",
+   "summary": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?"
+  },
+  {
+   "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+   "date": "2026-11-16T16:36:55.000Z",
+   "source": "Dark Reading",
+   "summary": "Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations."
+  },
+  {
+   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+   "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+   "date": "2026-11-16T14:00:00.000Z",
+   "source": "The Hacker News",
+   "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater ope"
+  },
+  {
+   "title": "Google warns that fully-automated AI attacks are coming soon",
+   "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+   "date": "2026-11-16T14:00:00.000Z",
+   "source": "BleepingComputer",
+   "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]"
+  },
+  {
+   "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+   "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+   "date": "2026-11-16T13:27:20.000Z",
+   "source": "The Hacker News",
+   "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, o"
+  },
+  {
+   "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+   "date": "2026-11-16T11:00:00.000Z",
+   "source": "BleepingComputer",
+   "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]"
+  },
+  {
+   "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+   "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+   "date": "2026-11-16T07:34:21.000Z",
+   "source": "The Hacker News",
+   "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers"
+  },
   {
    "title": "datasette 1.0a43",
    "link": "https://simonwillison.net/2026/Nov/15/datasette/",
@@ -62,14 +139,7 @@
    "link": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
    "date": "2026-11-13T20:20:27.000Z",
    "source": "Dark Reading",
-   "summary": "The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information."
-  },
-  {
-   "title": "How one AI agent exposed five critical enterprise security gaps",
-   "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-   "date": "2026-11-13T15:01:11.000Z",
-   "source": "BleepingComputer",
-   "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from indus"
+   "summary": "The Android malware has expanded from focusing on cryptocurrency theft to full device control, and the attackers have added advanced analysis of stolen information."
   },
   {
    "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
@@ -105,13 +175,6 @@
    "date": "2026-11-12T21:18:52.000Z",
    "source": "Dark Reading",
    "summary": "Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away."
-  },
-  {
-   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-   "date": "2026-11-12T20:15:16.000Z",
-   "source": "BleepingComputer",
-   "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]"
   },
   {
    "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
@@ -282,13 +345,6 @@
    "summary": "A command in Claude Code inadvertently saves files with credentials and other sensitive data to public Git repositories, creating security gaps for organizations."
   },
   {
-   "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-   "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
-   "date": "2026-11-10T15:33:59.000Z",
-   "source": "The Hacker News",
-   "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of account"
-  },
-  {
    "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
    "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
    "date": "2026-11-10T13:00:00.000Z",
@@ -335,7 +391,7 @@
    "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
    "date": "2026-11-09T23:06:22.000Z",
    "source": "Dark Reading",
-   "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility. The tendency for humans to anthropomorphize the conversations and interactions we're having with AI is growing into potential delusion."
+   "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to the cybersecurity risks. The tendency for humans to anthropomorphize the conversations and interactions we're having with AI is growing into potential delusion."
   },
   {
    "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
@@ -455,13 +511,6 @@
    "date": "2026-11-03T14:00:00.000Z",
    "source": "Dark Reading",
    "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation."
-  },
-  {
-   "title": "Microsoft's AI Risk Report Misses This Key Detail",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
-   "date": "2026-11-02T15:00:00.000Z",
-   "source": "Dark Reading",
-   "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks, but it doesn't mention that they are broadly being targeted through Microsoft bugs."
   },
   {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
