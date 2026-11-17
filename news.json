@@ -1,20 +1,83 @@
 {
- "updated": "2026-11-17T07:53:59.821Z",
+ "updated": "2026-11-17T20:54:42.469Z",
  "status": {
   "OWASP GenAI Security Project": 10,
-  "Embrace The Red": 231,
   "EU AI Act Newsletter": "failed: HTTP 403",
-  "CISA News": 0,
-  "Simon Willison": 16,
-  "Schneier on Security": 3,
-  "Microsoft Security Blog": 5,
-  "The Hacker News": 13,
+  "Embrace The Red": 231,
+  "Schneier on Security": 4,
   "NIST News": 7,
+  "CISA News": 0,
   "BleepingComputer": 6,
+  "Microsoft Security Blog": 6,
+  "The Hacker News": 12,
   "Google Security Blog": 7,
+  "Simon Willison": 16,
   "Dark Reading": 25
  },
  "items": [
+  {
+   "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+   "link": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
+   "date": "2026-11-17T18:38:37.000Z",
+   "source": "Dark Reading",
+   "summary": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials."
+  },
+  {
+   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+   "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+   "date": "2026-11-17T18:21:24.000Z",
+   "source": "BleepingComputer",
+   "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]"
+  },
+  {
+   "title": "Security for the agentic era, powered by Microsoft Perception",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+   "date": "2026-11-17T18:14:00.000Z",
+   "source": "Microsoft Security Blog",
+   "summary": "Read about updates to Microsoft Perception and the new Microsoft Security cyber stack to defend against threats, secure agents, and protect your digital estate. The post Security for the agentic era, powered by Microsoft Perception appeared first on Microsoft Security Blog ."
+  },
+  {
+   "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+   "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+   "date": "2026-11-17T15:17:28.000Z",
+   "source": "The Hacker News",
+   "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, t"
+  },
+  {
+   "title": "The risks of device code authentication for AI coding agents",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+   "date": "2026-11-17T15:00:00.000Z",
+   "source": "Microsoft Security Blog",
+   "summary": "Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft "
+  },
+  {
+   "title": "Grok Bots Attempt to Access Corporate Data Without User Approval",
+   "link": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
+   "date": "2026-11-17T13:12:56.000Z",
+   "source": "Dark Reading",
+   "summary": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner approval."
+  },
+  {
+   "title": "Formal Verification of the Signal Protocol Using AI",
+   "link": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+   "date": "2026-11-17T12:05:43.000Z",
+   "source": "Schneier on Security",
+   "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself. Conducted as a sort of pr"
+  },
+  {
+   "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+   "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+   "date": "2026-11-17T11:07:31.000Z",
+   "source": "The Hacker News",
+   "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more opti"
+  },
+  {
+   "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+   "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+   "date": "2026-11-17T08:35:42.000Z",
+   "source": "BleepingComputer",
+   "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]"
+  },
   {
    "title": "llm 0.37.3",
    "link": "https://simonwillison.net/2026/Nov/16/llm/",
@@ -51,7 +114,7 @@
    "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]"
   },
   {
-   "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+   "title": "Ransomware Attacks Increase Behind AI, but Payments Decline",
    "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
    "date": "2026-11-16T19:56:05.000Z",
    "source": "Dark Reading",
@@ -79,25 +142,11 @@
    "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater ope"
   },
   {
-   "title": "Google warns that fully-automated AI attacks are coming soon",
-   "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-   "date": "2026-11-16T14:00:00.000Z",
-   "source": "BleepingComputer",
-   "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]"
-  },
-  {
    "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
    "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
    "date": "2026-11-16T13:27:20.000Z",
    "source": "The Hacker News",
    "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, o"
-  },
-  {
-   "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-   "date": "2026-11-16T11:00:00.000Z",
-   "source": "BleepingComputer",
-   "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]"
   },
   {
    "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
@@ -133,6 +182,13 @@
    "date": "2026-11-14T23:59:28.000Z",
    "source": "Simon Willison",
    "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t"
+  },
+  {
+   "title": "As Test Takers Turn to AI, Exam Security Plays Catch-Up",
+   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
+   "date": "2026-11-13T22:27:00.000Z",
+   "source": "Dark Reading",
+   "summary": "It's hard to detect whether someone is using artificial intelligence (AI) to cheat on IT certification exams, but new tools and processes are emerging to boost trust."
   },
   {
    "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
@@ -233,13 +289,6 @@
    "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement."
   },
   {
-   "title": "As Test Takers Turn to AI for Answers, Exam Security Must Catch Up",
-   "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
-   "date": "2026-11-11T20:27:00.000Z",
-   "source": "Dark Reading",
-   "summary": "It's hard to detect whether someone is using artificial intelligence (AI) to cheat on IT certification exams, but new tools and processes are emerging to boost trust."
-  },
-  {
    "title": "llm 0.37.2",
    "link": "https://simonwillison.net/2026/Nov/11/llm/",
    "date": "2026-11-11T17:19:52.000Z",
@@ -282,20 +331,6 @@
    "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This"
   },
   {
-   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-   "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-   "date": "2026-11-11T07:49:04.000Z",
-   "source": "The Hacker News",
-   "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund"
-  },
-  {
-   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-   "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-   "date": "2026-11-11T07:21:05.000Z",
-   "source": "The Hacker News",
-   "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with t"
-  },
-  {
    "title": "Detecting sleeper agents hiding in AI model neurons",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
    "date": "2026-11-10T23:00:00.000Z",
@@ -329,13 +364,6 @@
    "date": "2026-11-10T20:09:44.000Z",
    "source": "Simon Willison",
    "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5"
-  },
-  {
-   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-   "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-   "date": "2026-11-10T19:19:39.000Z",
-   "source": "The Hacker News",
-   "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidenti"
   },
   {
    "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
@@ -464,32 +492,11 @@
    "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex."
   },
   {
-   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
-   "date": "2026-11-05T23:46:50.000Z",
-   "source": "Microsoft Security Blog",
-   "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s te"
-  },
-  {
    "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
    "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
    "date": "2026-11-05T16:48:36.000Z",
    "source": "Dark Reading",
    "summary": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations."
-  },
-  {
-   "title": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
-   "link": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
-   "date": "2026-11-03T15:35:50.000Z",
-   "source": "Dark Reading",
-   "summary": "Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was revoked."
-  },
-  {
-   "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
-   "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
-   "date": "2026-11-03T14:00:00.000Z",
-   "source": "Dark Reading",
-   "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation."
   },
   {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
