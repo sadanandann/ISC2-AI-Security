@@ -1,20 +1,34 @@
 {
- "updated": "2026-11-16T22:00:22.837Z",
+ "updated": "2026-11-17T07:53:59.821Z",
  "status": {
-  "EU AI Act Newsletter": "failed: HTTP 403",
-  "Embrace The Red": 231,
   "OWASP GenAI Security Project": 10,
-  "NIST News": 7,
+  "Embrace The Red": 231,
+  "EU AI Act Newsletter": "failed: HTTP 403",
   "CISA News": 0,
+  "Simon Willison": 16,
   "Schneier on Security": 3,
-  "Simon Willison": 17,
-  "Microsoft Security Blog": 6,
+  "Microsoft Security Blog": 5,
   "The Hacker News": 13,
-  "BleepingComputer": 7,
+  "NIST News": 7,
+  "BleepingComputer": 6,
   "Google Security Blog": 7,
   "Dark Reading": 25
  },
  "items": [
+  {
+   "title": "llm 0.37.3",
+   "link": "https://simonwillison.net/2026/Nov/16/llm/",
+   "date": "2026-11-16T23:57:26.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: "
+  },
+  {
+   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+   "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+   "date": "2026-11-16T22:54:00.000Z",
+   "source": "BleepingComputer",
+   "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]"
+  },
   {
    "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
    "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
@@ -100,13 +114,6 @@
    "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this "
   },
   {
-   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-   "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-   "date": "2026-11-15T18:29:53.000Z",
-   "source": "BleepingComputer",
-   "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]"
-  },
-  {
    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
    "date": "2026-11-15T08:22:04.000Z",
@@ -126,13 +133,6 @@
    "date": "2026-11-14T23:59:28.000Z",
    "source": "Simon Willison",
    "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t"
-  },
-  {
-   "title": "Cursor confirms security breach led to malicious Claude Code extension",
-   "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-   "date": "2026-11-14T17:27:25.000Z",
-   "source": "BleepingComputer",
-   "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]"
   },
   {
    "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
@@ -471,32 +471,11 @@
    "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s te"
   },
   {
-   "title": "​​​​What’s new in Microsoft Security: November 2026",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
-   "date": "2026-11-05T17:00:00.000Z",
-   "source": "Microsoft Security Blog",
-   "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management. The post ​​​​What’s new in Microsoft Security: November 2026 appeared first on Microsoft Security Blog ."
-  },
-  {
    "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
    "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
    "date": "2026-11-05T16:48:36.000Z",
    "source": "Dark Reading",
    "summary": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations."
-  },
-  {
-   "title": "datasette-llm 0.1a10",
-   "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
-   "date": "2026-11-04T15:26:02.000Z",
-   "source": "Simon Willison",
-   "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: llm , datasette"
-  },
-  {
-   "title": "datasette-apps 0.3a0",
-   "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
-   "date": "2026-11-04T00:29:36.000Z",
-   "source": "Simon Willison",
-   "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be ta"
   },
   {
    "title": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
