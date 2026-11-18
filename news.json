@@ -1,20 +1,41 @@
 {
- "updated": "2026-11-17T20:54:42.469Z",
+ "updated": "2026-11-18T07:28:01.226Z",
  "status": {
-  "OWASP GenAI Security Project": 10,
   "EU AI Act Newsletter": "failed: HTTP 403",
-  "Embrace The Red": 231,
-  "Schneier on Security": 4,
-  "NIST News": 7,
   "CISA News": 0,
-  "BleepingComputer": 6,
+  "NIST News": 7,
+  "Embrace The Red": 231,
+  "OWASP GenAI Security Project": 10,
+  "Simon Willison": 17,
   "Microsoft Security Blog": 6,
-  "The Hacker News": 12,
-  "Google Security Blog": 7,
-  "Simon Willison": 16,
-  "Dark Reading": 25
+  "Schneier on Security": 4,
+  "BleepingComputer": 4,
+  "The Hacker News": 10,
+  "Dark Reading": 26,
+  "Google Security Blog": 7
  },
  "items": [
+  {
+   "title": "External sandboxes for coding agents",
+   "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+   "date": "2026-11-17T22:52:29.000Z",
+   "source": "Simon Willison",
+   "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine."
+  },
+  {
+   "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+   "link": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+   "date": "2026-11-17T22:38:52.000Z",
+   "source": "Simon Willison",
+   "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp"
+  },
+  {
+   "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
+   "link": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+   "date": "2026-11-17T20:58:13.000Z",
+   "source": "Dark Reading",
+   "summary": "The commercial kit uses attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets."
+  },
   {
    "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
    "link": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
@@ -98,20 +119,6 @@
    "date": "2026-11-16T21:31:44.000Z",
    "source": "BleepingComputer",
    "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]"
-  },
-  {
-   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-   "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-   "date": "2026-11-16T20:59:44.000Z",
-   "source": "BleepingComputer",
-   "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks again"
-  },
-  {
-   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-   "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-   "date": "2026-11-16T19:57:13.000Z",
-   "source": "BleepingComputer",
-   "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]"
   },
   {
    "title": "Ransomware Attacks Increase Behind AI, but Payments Decline",
@@ -310,25 +317,11 @@
    "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, descri"
   },
   {
-   "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-   "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-   "date": "2026-11-11T12:19:40.000Z",
-   "source": "The Hacker News",
-   "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most "
-  },
-  {
    "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
    "link": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
    "date": "2026-11-11T12:05:34.000Z",
    "source": "Schneier on Security",
    "summary": "It’s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voi"
-  },
-  {
-   "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-   "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-   "date": "2026-11-11T12:01:59.000Z",
-   "source": "The Hacker News",
-   "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This"
   },
   {
    "title": "Detecting sleeper agents hiding in AI model neurons",
@@ -476,13 +469,6 @@
    "date": "2026-11-06T18:27:30.000Z",
    "source": "Dark Reading",
    "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises."
-  },
-  {
-   "title": "Quoting Nilay Patel",
-   "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
-   "date": "2026-11-06T17:13:12.000Z",
-   "source": "Simon Willison",
-   "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyo"
   },
   {
    "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
