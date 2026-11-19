@@ -1,20 +1,34 @@
 {
- "updated": "2026-11-19T07:24:16.827Z",
+ "updated": "2026-11-19T20:36:31.192Z",
  "status": {
-  "EU AI Act Newsletter": "failed: HTTP 403",
-  "OWASP GenAI Security Project": 10,
-  "CISA News": 0,
   "Embrace The Red": 231,
-  "Simon Willison": 17,
+  "OWASP GenAI Security Project": 10,
   "Schneier on Security": 4,
   "NIST News": 6,
-  "Microsoft Security Blog": 6,
-  "BleepingComputer": 3,
+  "CISA News": 0,
+  "Simon Willison": 17,
   "The Hacker News": 11,
+  "Microsoft Security Blog": 6,
+  "BleepingComputer": 2,
+  "EU AI Act Newsletter": 20,
   "Google Security Blog": 7,
   "Dark Reading": 28
  },
  "items": [
+  {
+   "title": "Navigating Vulnerability Hysteria in the AI Era",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
+   "date": "2026-11-19T19:46:44.000Z",
+   "source": "Dark Reading",
+   "summary": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic, operational disruptions, and growing warning fatigue."
+  },
+  {
+   "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+   "date": "2026-11-19T18:47:58.000Z",
+   "source": "The Hacker News",
+   "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread "
+  },
   {
    "title": "llm-gemini 0.38",
    "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
@@ -93,13 +107,6 @@
    "summary": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials."
   },
   {
-   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-   "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-   "date": "2026-11-17T18:21:24.000Z",
-   "source": "BleepingComputer",
-   "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]"
-  },
-  {
    "title": "Security for the agentic era, powered by Microsoft Perception",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
    "date": "2026-11-17T18:14:00.000Z",
@@ -140,6 +147,13 @@
    "date": "2026-11-17T11:07:31.000Z",
    "source": "The Hacker News",
    "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more opti"
+  },
+  {
+   "title": "Why Has California Led the Way on AI Regulation? (with Irene Liu)",
+   "link": "https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on",
+   "date": "2026-11-17T07:47:40.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
   },
   {
    "title": "llm 0.37.3",
@@ -275,13 +289,6 @@
    "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on"
   },
   {
-   "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-   "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-   "date": "2026-11-12T15:15:40.000Z",
-   "source": "The Hacker News",
-   "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed Typo"
-  },
-  {
    "title": "Inside an AI Attack Against a US Retailer",
    "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
    "date": "2026-11-12T11:00:00.000Z",
@@ -394,6 +401,13 @@
    "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts."
   },
   {
+   "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
+   "date": "2026-11-10T07:58:06.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The AI Office proposes requirements for independent external evaluators of GPAI models with systemic risk, and analysts examine the EU's testing capacity and gaps in incident reporting."
+  },
+  {
    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
    "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
    "date": "2026-11-10T07:28:21.000Z",
@@ -492,11 +506,18 @@
    "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex."
   },
   {
-   "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
-   "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
-   "date": "2026-11-05T16:48:36.000Z",
-   "source": "Dark Reading",
-   "summary": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations."
+   "title": "How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really",
+   "date": "2026-11-03T07:31:14.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
+  },
+  {
+   "title": "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special",
+   "date": "2026-10-20T05:29:31.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Scientific Panel briefs Virkkunen on recent incidents, the AI Office investigates OpenAI and Anthropic, and the first harmonised AI Act standard is published."
   },
   {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
@@ -513,11 +534,32 @@
    "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP T"
   },
   {
+   "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
+   "date": "2026-10-06T05:34:16.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Commission backs an international AI safety monitoring body but faces criticism at home over the pace and resourcing of AI Act enforcement."
+  },
+  {
    "title": "From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)",
    "link": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
    "date": "2026-09-30T21:00:40.000Z",
    "source": "Embrace The Red",
    "summary": "Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft&rsquo;s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Mic"
+  },
+  {
+   "title": "How Does the EU AI Office Enforce the AI Act? (with Lucilla Sioli)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-does-the-eu-ai-office-enforce",
+   "date": "2026-09-30T06:48:06.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
+  },
+  {
+   "title": "The EU AI Act Newsletter #111: Pacing the Frontier",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-111-pacing",
+   "date": "2026-09-23T05:51:11.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Von der Leyen puts frontier AI risk at the centre of her State of the Union address, while the AI Office confirms OpenAI did not file a report on the RubyGems incident."
   }
  ]
 }
