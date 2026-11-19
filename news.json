@@ -1,20 +1,41 @@
 {
- "updated": "2026-11-18T20:30:09.955Z",
+ "updated": "2026-11-19T07:24:16.827Z",
  "status": {
   "EU AI Act Newsletter": "failed: HTTP 403",
   "OWASP GenAI Security Project": 10,
-  "Embrace The Red": 231,
   "CISA News": 0,
+  "Embrace The Red": 231,
+  "Simon Willison": 17,
   "Schneier on Security": 4,
   "NIST News": 6,
   "Microsoft Security Blog": 6,
-  "BleepingComputer": 2,
+  "BleepingComputer": 3,
   "The Hacker News": 11,
-  "Dark Reading": 27,
-  "Simon Willison": 17,
-  "Google Security Blog": 7
+  "Google Security Blog": 7,
+  "Dark Reading": 28
  },
  "items": [
+  {
+   "title": "llm-gemini 0.38",
+   "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+   "date": "2026-11-18T23:59:20.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the "
+  },
+  {
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "date": "2026-11-18T20:49:32.000Z",
+   "source": "BleepingComputer",
+   "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]"
+  },
+  {
+   "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+   "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+   "date": "2026-11-18T20:45:49.000Z",
+   "source": "Dark Reading",
+   "summary": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work."
+  },
   {
    "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
    "link": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
@@ -441,13 +462,6 @@
    "date": "2026-11-09T12:05:39.000Z",
    "source": "Schneier on Security",
    "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into "
-  },
-  {
-   "title": "Hide your slop PR descriptions behind",
-   "link": "https://simonwillison.net/2026/Nov/9/details-summary/",
-   "date": "2026-11-09T04:25:05.000Z",
-   "source": "Simon Willison",
-   "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished res"
   },
   {
    "title": "ARTEX abuse expands as cybercriminals target financial sector",
