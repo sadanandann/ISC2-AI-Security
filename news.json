@@ -1,20 +1,41 @@
 {
- "updated": "2026-11-19T20:36:31.192Z",
+ "updated": "2026-11-20T07:14:31.281Z",
  "status": {
-  "Embrace The Red": 231,
   "OWASP GenAI Security Project": 10,
-  "Schneier on Security": 4,
-  "NIST News": 6,
-  "CISA News": 0,
+  "EU AI Act Newsletter": "failed: HTTP 403",
+  "Embrace The Red": 231,
   "Simon Willison": 17,
-  "The Hacker News": 11,
+  "CISA News": 0,
+  "NIST News": 6,
+  "Schneier on Security": 4,
   "Microsoft Security Blog": 6,
-  "BleepingComputer": 2,
-  "EU AI Act Newsletter": 20,
+  "BleepingComputer": 1,
+  "The Hacker News": 11,
   "Google Security Blog": 7,
   "Dark Reading": 28
  },
  "items": [
+  {
+   "title": "Token fraud is here and it’s BAD (YouTube)",
+   "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+   "date": "2026-11-20T02:49:57.000Z",
+   "source": "Simon Willison",
+   "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see al"
+  },
+  {
+   "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
+   "link": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
+   "date": "2026-11-19T22:40:03.000Z",
+   "source": "Dark Reading",
+   "summary": "Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions."
+  },
+  {
+   "title": "PostgreSQL 19 Released",
+   "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+   "date": "2026-11-19T20:43:57.000Z",
+   "source": "Simon Willison",
+   "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release "
+  },
   {
    "title": "Navigating Vulnerability Hysteria in the AI Era",
    "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
@@ -56,13 +77,6 @@
    "date": "2026-11-18T16:54:52.000Z",
    "source": "Dark Reading",
    "summary": "Discovered using AI, the memory corruption vulnerability affects the OpenJDK runtime and could allow unauthenticated attackers to take over systems."
-  },
-  {
-   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-   "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-   "date": "2026-11-18T15:00:10.000Z",
-   "source": "BleepingComputer",
-   "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent "
   },
   {
    "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
@@ -147,13 +161,6 @@
    "date": "2026-11-17T11:07:31.000Z",
    "source": "The Hacker News",
    "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more opti"
-  },
-  {
-   "title": "Why Has California Led the Way on AI Regulation? (with Irene Liu)",
-   "link": "https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on",
-   "date": "2026-11-17T07:47:40.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
   },
   {
    "title": "llm 0.37.3",
@@ -401,13 +408,6 @@
    "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts."
   },
   {
-   "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
-   "date": "2026-11-10T07:58:06.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The AI Office proposes requirements for independent external evaluators of GPAI models with systemic risk, and analysts examine the EU's testing capacity and gaps in incident reporting."
-  },
-  {
    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
    "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
    "date": "2026-11-10T07:28:21.000Z",
@@ -427,20 +427,6 @@
    "date": "2026-11-10T03:53:04.000Z",
    "source": "Simon Willison",
    "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animati"
-  },
-  {
-   "title": "llm-anthropic 0.31",
-   "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-   "date": "2026-11-09T23:58:46.000Z",
-   "source": "Simon Willison",
-   "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! "
-  },
-  {
-   "title": "Locating the source of a mysterious beep with Claude",
-   "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-   "date": "2026-11-09T23:57:21.000Z",
-   "source": "Simon Willison",
-   "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was f"
   },
   {
    "title": "People Are Getting Weird About AI",
@@ -499,27 +485,6 @@
    "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises."
   },
   {
-   "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
-   "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
-   "date": "2026-11-06T09:00:00.000Z",
-   "source": "Dark Reading",
-   "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex."
-  },
-  {
-   "title": "How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)",
-   "link": "https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really",
-   "date": "2026-11-03T07:31:14.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
-  },
-  {
-   "title": "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special",
-   "date": "2026-10-20T05:29:31.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The Scientific Panel briefs Virkkunen on recent incidents, the AI Office investigates OpenAI and Anthropic, and the first harmonised AI Act standard is published."
-  },
-  {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
    "link": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
    "date": "2026-10-13T22:00:40.000Z",
@@ -534,32 +499,11 @@
    "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP T"
   },
   {
-   "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
-   "date": "2026-10-06T05:34:16.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The Commission backs an international AI safety monitoring body but faces criticism at home over the pace and resourcing of AI Act enforcement."
-  },
-  {
    "title": "From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)",
    "link": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
    "date": "2026-09-30T21:00:40.000Z",
    "source": "Embrace The Red",
    "summary": "Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft&rsquo;s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Mic"
-  },
-  {
-   "title": "How Does the EU AI Office Enforce the AI Act? (with Lucilla Sioli)",
-   "link": "https://artificialintelligenceact.substack.com/p/how-does-the-eu-ai-office-enforce",
-   "date": "2026-09-30T06:48:06.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
-  },
-  {
-   "title": "The EU AI Act Newsletter #111: Pacing the Frontier",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-111-pacing",
-   "date": "2026-09-23T05:51:11.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Von der Leyen puts frontier AI risk at the centre of her State of the Union address, while the AI Office confirms OpenAI did not file a report on the RubyGems incident."
   }
  ]
 }
