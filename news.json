@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-20T20:18:03.751Z",
+ "updated": "2026-11-21T07:05:56.930Z",
  "status": {
-  "EU AI Act Newsletter": "failed: HTTP 403",
   "Embrace The Red": 231,
-  "NIST News": 6,
-  "Schneier on Security": 3,
-  "Simon Willison": 17,
+  "EU AI Act Newsletter": "failed: HTTP 403",
   "OWASP GenAI Security Project": 10,
+  "Schneier on Security": 3,
+  "NIST News": 6,
+  "Simon Willison": 17,
   "Microsoft Security Blog": 5,
+  "CISA News": 0,
   "BleepingComputer": 2,
-  "Google Security Blog": 7,
   "The Hacker News": 11,
-  "Dark Reading": 29,
-  "CISA News": 0
+  "Google Security Blog": 7,
+  "Dark Reading": 28
  },
  "items": [
   {
@@ -476,13 +476,6 @@
    "date": "2026-11-09T17:17:23.000Z",
    "source": "Dark Reading",
    "summary": "As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies."
-  },
-  {
-   "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
-   "link": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
-   "date": "2026-11-06T21:27:36.000Z",
-   "source": "Dark Reading",
-   "summary": "The UK is betting on domestic AI and cyber investment to reduce reliance on US tech — but security leaders question whether the funding is too fragmented and too late."
   },
   {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
