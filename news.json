@@ -1,20 +1,41 @@
 {
- "updated": "2026-11-23T23:52:38.015Z",
+ "updated": "2026-11-24T09:53:35.769Z",
  "status": {
   "Embrace The Red": 231,
   "EU AI Act Newsletter": "failed: HTTP 403",
   "NIST News": 6,
+  "Simon Willison": 16,
+  "OWASP GenAI Security Project": 10,
   "CISA News": 0,
   "Schneier on Security": 3,
-  "OWASP GenAI Security Project": 10,
-  "Simon Willison": 17,
-  "BleepingComputer": 3,
   "Microsoft Security Blog": 5,
+  "BleepingComputer": 3,
+  "The Hacker News": 12,
   "Google Security Blog": 7,
-  "The Hacker News": 11,
   "Dark Reading": 28
  },
  "items": [
+  {
+   "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+   "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+   "date": "2026-11-24T06:02:57.000Z",
+   "source": "The Hacker News",
+   "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving d"
+  },
+  {
+   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+   "date": "2026-11-24T06:02:45.000Z",
+   "source": "The Hacker News",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE"
+  },
+  {
+   "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+   "link": "https://simonwillison.net/2026/Nov/23/glm-54/",
+   "date": "2026-11-23T23:40:49.000Z",
+   "source": "Simon Willison",
+   "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. "
+  },
   {
    "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
    "link": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
@@ -282,13 +303,6 @@
    "summary": "Read about updates to Microsoft Perception and the new Microsoft Security cyber stack to defend against threats, secure agents, and protect your digital estate. The post Security for the agentic era, powered by Microsoft Perception appeared first on Microsoft Security Blog ."
   },
   {
-   "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-   "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-   "date": "2026-11-17T15:17:28.000Z",
-   "source": "The Hacker News",
-   "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, t"
-  },
-  {
    "title": "The risks of device code authentication for AI coding agents",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
    "date": "2026-11-17T15:00:00.000Z",
@@ -380,13 +394,6 @@
    "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop . I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other syst"
   },
   {
-   "title": "llm-gemini 0.37",
-   "link": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
-   "date": "2026-11-12T22:55:19.000Z",
-   "source": "Simon Willison",
-   "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Mod"
-  },
-  {
    "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
    "link": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
    "date": "2026-11-12T21:18:52.000Z",
@@ -427,13 +434,6 @@
    "date": "2026-11-11T22:14:44.000Z",
    "source": "Dark Reading",
    "summary": "この対策パッケージには、官民合同のサイバー対応チーム、経済省が主導するAI専門チーム、および政府の新たな能動的サイバー防衛権限の行使に関する裁量の拡大が含まれている。"
-  },
-  {
-   "title": "Gemini Decisions API",
-   "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-   "date": "2026-11-11T22:03:25.000Z",
-   "source": "Simon Willison",
-   "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/n"
   },
   {
    "title": "AI Raises the Stakes for Cyber Resilience",
