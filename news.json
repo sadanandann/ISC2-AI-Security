@@ -1,20 +1,41 @@
 {
- "updated": "2026-11-24T22:26:18.850Z",
+ "updated": "2026-11-25T08:32:49.001Z",
  "status": {
-  "Embrace The Red": 231,
-  "EU AI Act Newsletter": "failed: HTTP 403",
-  "Simon Willison": 16,
-  "NIST News": 6,
   "CISA News": 0,
-  "Schneier on Security": 3,
-  "Microsoft Security Blog": 5,
-  "The Hacker News": 10,
+  "Embrace The Red": 231,
+  "NIST News": 6,
+  "OWASP GenAI Security Project": 10,
+  "Simon Willison": 17,
   "BleepingComputer": 3,
-  "Dark Reading": 26,
+  "Schneier on Security": 3,
+  "EU AI Act Newsletter": 20,
+  "Microsoft Security Blog": 5,
+  "The Hacker News": 11,
   "Google Security Blog": 7,
-  "OWASP GenAI Security Project": 10
+  "Dark Reading": 26
  },
  "items": [
+  {
+   "title": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
+   "link": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+   "date": "2026-11-25T15:00:00.000Z",
+   "source": "Dark Reading",
+   "summary": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainable."
+  },
+  {
+   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+   "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+   "date": "2026-11-25T06:50:19.000Z",
+   "source": "The Hacker News",
+   "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyN"
+  },
+  {
+   "title": "Three LLM inflection points in twelve months",
+   "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+   "date": "2026-11-24T23:02:07.000Z",
+   "source": "Simon Willison",
+   "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going t"
+  },
   {
    "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
    "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
@@ -28,6 +49,13 @@
    "date": "2026-11-24T13:34:23.000Z",
    "source": "BleepingComputer",
    "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]"
+  },
+  {
+   "title": "The EU AI Act Newsletter #115: Global Rules After the Midterms",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global",
+   "date": "2026-11-24T07:44:37.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Commission questions OpenAI and Anthropic on safety incidents, civil society urges EU leaders to back full enforcement, and Brussels eyes a global AI deal after the US midterms."
   },
   {
    "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
@@ -310,6 +338,13 @@
    "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself. Conducted as a sort of pr"
   },
   {
+   "title": "Why Has California Led the Way on AI Regulation? (with Irene Liu)",
+   "link": "https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on",
+   "date": "2026-11-17T07:47:40.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
+  },
+  {
    "title": "llm 0.37.3",
    "link": "https://simonwillison.net/2026/Nov/16/llm/",
    "date": "2026-11-16T23:57:26.000Z",
@@ -443,11 +478,11 @@
    "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries."
   },
   {
-   "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
-   "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
-   "date": "2026-11-10T20:41:45.000Z",
-   "source": "Dark Reading",
-   "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene."
+   "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
+   "date": "2026-11-10T07:58:06.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The AI Office proposes requirements for independent external evaluators of GPAI models with systemic risk, and analysts examine the EU's testing capacity and gaps in incident reporting."
   },
   {
    "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
@@ -455,6 +490,20 @@
    "date": "2026-11-09T20:17:31.000Z",
    "source": "Microsoft Security Blog",
    "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced tru"
+  },
+  {
+   "title": "How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really",
+   "date": "2026-11-03T07:31:14.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
+  },
+  {
+   "title": "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special",
+   "date": "2026-10-20T05:29:31.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Scientific Panel briefs Virkkunen on recent incidents, the AI Office investigates OpenAI and Anthropic, and the first harmonised AI Act standard is published."
   },
   {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
@@ -471,11 +520,25 @@
    "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP T"
   },
   {
+   "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
+   "date": "2026-10-06T05:34:16.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Commission backs an international AI safety monitoring body but faces criticism at home over the pace and resourcing of AI Act enforcement."
+  },
+  {
    "title": "From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)",
    "link": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
    "date": "2026-09-30T21:00:40.000Z",
    "source": "Embrace The Red",
    "summary": "Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft&rsquo;s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Mic"
+  },
+  {
+   "title": "How Does the EU AI Office Enforce the AI Act? (with Lucilla Sioli)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-does-the-eu-ai-office-enforce",
+   "date": "2026-09-30T06:48:06.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
   }
  ]
 }
