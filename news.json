@@ -1,20 +1,48 @@
 {
- "updated": "2026-11-26T08:16:19.141Z",
+ "updated": "2026-11-26T21:30:44.336Z",
  "status": {
-  "Embrace The Red": 231,
-  "EU AI Act Newsletter": "failed: HTTP 403",
   "OWASP GenAI Security Project": 10,
+  "EU AI Act Newsletter": "failed: HTTP 403",
+  "Embrace The Red": 231,
+  "CISA News": 0,
   "NIST News": 6,
-  "Simon Willison": 15,
+  "Simon Willison": 16,
   "Schneier on Security": 3,
   "Microsoft Security Blog": 4,
-  "CISA News": 0,
-  "BleepingComputer": 2,
+  "BleepingComputer": 3,
   "The Hacker News": 12,
   "Google Security Blog": 7,
   "Dark Reading": 25
  },
  "items": [
+  {
+   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "date": "2026-11-26T21:06:22.000Z",
+   "source": "BleepingComputer",
+   "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]"
+  },
+  {
+   "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+   "date": "2026-11-26T19:39:57.000Z",
+   "source": "The Hacker News",
+   "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works "
+  },
+  {
+   "title": "Quoting Jack Despain Zhou",
+   "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+   "date": "2026-11-26T15:09:31.000Z",
+   "source": "Simon Willison",
+   "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostens"
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+   "date": "2026-11-26T05:08:46.000Z",
+   "source": "Simon Willison",
+   "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features &mdash; Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if"
+  },
   {
    "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
    "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
@@ -268,13 +296,6 @@
    "summary": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic, operational disruptions, and growing warning fatigue."
   },
   {
-   "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-   "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-   "date": "2026-11-19T18:47:58.000Z",
-   "source": "The Hacker News",
-   "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread "
-  },
-  {
    "title": "llm-gemini 0.38",
    "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
    "date": "2026-11-18T23:59:20.000Z",
@@ -378,13 +399,6 @@
    "date": "2026-11-16T16:36:55.000Z",
    "source": "Dark Reading",
    "summary": "Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations."
-  },
-  {
-   "title": "datasette 1.0a43",
-   "link": "https://simonwillison.net/2026/Nov/15/datasette/",
-   "date": "2026-11-15T23:20:27.000Z",
-   "source": "Simon Willison",
-   "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this "
   },
   {
    "title": "As Test Takers Turn to AI, Exam Security Plays Catch-Up",
