@@ -1,20 +1,34 @@
 {
- "updated": "2026-11-27T08:30:47.681Z",
+ "updated": "2026-11-27T21:16:19.898Z",
  "status": {
-  "EU AI Act Newsletter": "failed: HTTP 403",
+  "Embrace The Red": 231,
   "OWASP GenAI Security Project": 10,
-  "Simon Willison": 16,
+  "EU AI Act Newsletter": 20,
   "NIST News": 6,
   "Schneier on Security": 3,
+  "Simon Willison": 16,
   "CISA News": 0,
-  "Embrace The Red": 231,
+  "BleepingComputer": 1,
   "Microsoft Security Blog": 4,
-  "BleepingComputer": 3,
-  "The Hacker News": 13,
+  "The Hacker News": 12,
   "Google Security Blog": 7,
   "Dark Reading": 25
  },
  "items": [
+  {
+   "title": "Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+   "link": "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+   "date": "2026-11-27T15:27:20.000Z",
+   "source": "Dark Reading",
+   "summary": "The security startup consolidates four legacy security tools into an autonomous platform that uses context-aware AI to trace sensitive data lineage, analyze user intent, and automatically remediate threats across enterprise environments."
+  },
+  {
+   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+   "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+   "date": "2026-11-27T10:32:18.000Z",
+   "source": "The Hacker News",
+   "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment"
+  },
   {
    "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
    "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
@@ -51,25 +65,11 @@
    "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features &mdash; Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if"
   },
   {
-   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-   "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-   "date": "2026-11-25T19:39:31.000Z",
-   "source": "BleepingComputer",
-   "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]"
-  },
-  {
    "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
    "date": "2026-11-25T18:09:06.000Z",
    "source": "Microsoft Security Blog",
    "summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web applic"
-  },
-  {
-   "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-   "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-   "date": "2026-11-25T15:00:10.000Z",
-   "source": "BleepingComputer",
-   "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastru"
   },
   {
    "title": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
@@ -112,6 +112,13 @@
    "date": "2026-11-24T15:46:46.000Z",
    "source": "Dark Reading",
    "summary": "Data security posture management (DSPM) allowed the university to uncover sensitive information, tighten access controls, and lay the groundwork for safer AI adoption."
+  },
+  {
+   "title": "The EU AI Act Newsletter #115: Global Rules After the Midterms",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global",
+   "date": "2026-11-24T07:44:37.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Commission questions OpenAI and Anthropic on safety incidents, civil society urges EU leaders to back full enforcement, and Brussels eyes a global AI deal after the US midterms."
   },
   {
    "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
@@ -254,20 +261,6 @@
    "summary": "At its Ignite technical conference, Microsoft announced AI agent security tools and transparency standards to protect enterprise systems."
   },
   {
-   "title": "The Path to AI Autonomy in the SOC",
-   "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-   "date": "2026-11-20T12:00:00.000Z",
-   "source": "The Hacker News",
-   "summary": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% exp"
-  },
-  {
-   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-   "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-   "date": "2026-11-20T10:38:22.000Z",
-   "source": "The Hacker News",
-   "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsuppor"
-  },
-  {
    "title": "llm-gemini 0.38.1",
    "link": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
    "date": "2026-11-20T03:01:57.000Z",
@@ -380,6 +373,13 @@
    "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself. Conducted as a sort of pr"
   },
   {
+   "title": "Why Has California Led the Way on AI Regulation? (with Irene Liu)",
+   "link": "https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on",
+   "date": "2026-11-17T07:47:40.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
+  },
+  {
    "title": "llm 0.37.3",
    "link": "https://simonwillison.net/2026/Nov/16/llm/",
    "date": "2026-11-16T23:57:26.000Z",
@@ -457,11 +457,25 @@
    "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers."
   },
   {
-   "title": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
-   "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
-   "date": "2026-11-11T22:14:44.000Z",
-   "source": "Dark Reading",
-   "summary": "この対策パッケージには、官民合同のサイバー対応チーム、経済省が主導するAI専門チーム、および政府の新たな能動的サイバー防衛権限の行使に関する裁量の拡大が含まれている。"
+   "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
+   "date": "2026-11-10T07:58:06.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The AI Office proposes requirements for independent external evaluators of GPAI models with systemic risk, and analysts examine the EU's testing capacity and gaps in incident reporting."
+  },
+  {
+   "title": "How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really",
+   "date": "2026-11-03T07:31:14.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
+  },
+  {
+   "title": "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special",
+   "date": "2026-10-20T05:29:31.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Scientific Panel briefs Virkkunen on recent incidents, the AI Office investigates OpenAI and Anthropic, and the first harmonised AI Act standard is published."
   },
   {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
@@ -478,11 +492,25 @@
    "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP T"
   },
   {
+   "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
+   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
+   "date": "2026-10-06T05:34:16.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "The Commission backs an international AI safety monitoring body but faces criticism at home over the pace and resourcing of AI Act enforcement."
+  },
+  {
    "title": "From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)",
    "link": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
    "date": "2026-09-30T21:00:40.000Z",
    "source": "Embrace The Red",
    "summary": "Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft&rsquo;s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Mic"
+  },
+  {
+   "title": "How Does the EU AI Office Enforce the AI Act? (with Lucilla Sioli)",
+   "link": "https://artificialintelligenceact.substack.com/p/how-does-the-eu-ai-office-enforce",
+   "date": "2026-09-30T06:48:06.000Z",
+   "source": "EU AI Act Newsletter",
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
   }
  ]
 }
