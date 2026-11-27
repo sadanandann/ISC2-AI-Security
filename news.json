@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-26T21:30:44.336Z",
+ "updated": "2026-11-27T08:30:47.681Z",
  "status": {
-  "OWASP GenAI Security Project": 10,
   "EU AI Act Newsletter": "failed: HTTP 403",
-  "Embrace The Red": 231,
-  "CISA News": 0,
-  "NIST News": 6,
+  "OWASP GenAI Security Project": 10,
   "Simon Willison": 16,
+  "NIST News": 6,
   "Schneier on Security": 3,
+  "CISA News": 0,
+  "Embrace The Red": 231,
   "Microsoft Security Blog": 4,
   "BleepingComputer": 3,
-  "The Hacker News": 12,
+  "The Hacker News": 13,
   "Google Security Blog": 7,
   "Dark Reading": 25
  },
  "items": [
+  {
+   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+   "date": "2026-11-27T06:04:20.000Z",
+   "source": "The Hacker News",
+   "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two o"
+  },
   {
    "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
