@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-28T07:47:43.988Z",
+ "updated": "2026-11-28T20:00:36.090Z",
  "status": {
-  "OWASP GenAI Security Project": 10,
-  "Embrace The Red": 231,
   "EU AI Act Newsletter": "failed: HTTP 403",
-  "CISA News": 0,
-  "Simon Willison": 17,
+  "Embrace The Red": 231,
   "NIST News": 6,
+  "OWASP GenAI Security Project": 10,
+  "Simon Willison": 18,
   "Schneier on Security": 3,
-  "Microsoft Security Blog": 4,
-  "The Hacker News": 12,
   "BleepingComputer": 1,
+  "CISA News": 0,
+  "Microsoft Security Blog": 4,
   "Google Security Blog": 7,
+  "The Hacker News": 12,
   "Dark Reading": 25
  },
  "items": [
+  {
+   "title": "Code-driven AI illustrations are more useful than images from dedicated image models",
+   "link": "https://simonwillison.net/2026/Nov/28/code-driven-ai-illustrations/",
+   "date": "2026-11-28T17:45:40.000Z",
+   "source": "Simon Willison",
+   "summary": "An interesting trend in frontier LLMs released in the second half of 2026 is that they tend to be much better at visual reasoning and creative \"design\" than their predecessors. If you ask these text-output models to create a 2D image (or a 3D model, as discussed here previously )"
+  },
   {
    "title": "datasette-charts 0.4a0",
    "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
