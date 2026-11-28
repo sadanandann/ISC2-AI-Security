@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-27T21:16:19.898Z",
+ "updated": "2026-11-28T07:47:43.988Z",
  "status": {
-  "Embrace The Red": 231,
   "OWASP GenAI Security Project": 10,
-  "EU AI Act Newsletter": 20,
+  "Embrace The Red": 231,
+  "EU AI Act Newsletter": "failed: HTTP 403",
+  "CISA News": 0,
+  "Simon Willison": 17,
   "NIST News": 6,
   "Schneier on Security": 3,
-  "Simon Willison": 16,
-  "CISA News": 0,
-  "BleepingComputer": 1,
   "Microsoft Security Blog": 4,
   "The Hacker News": 12,
+  "BleepingComputer": 1,
   "Google Security Blog": 7,
   "Dark Reading": 25
  },
  "items": [
+  {
+   "title": "datasette-charts 0.4a0",
+   "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+   "date": "2026-11-27T23:57:17.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up wi"
+  },
   {
    "title": "Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
    "link": "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
@@ -35,6 +42,13 @@
    "date": "2026-11-27T06:04:20.000Z",
    "source": "The Hacker News",
    "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two o"
+  },
+  {
+   "title": "datasette-mcp 0.4",
+   "link": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+   "date": "2026-11-27T00:26:17.000Z",
+   "source": "Simon Willison",
+   "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette"
   },
   {
    "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
@@ -112,13 +126,6 @@
    "date": "2026-11-24T15:46:46.000Z",
    "source": "Dark Reading",
    "summary": "Data security posture management (DSPM) allowed the university to uncover sensitive information, tighten access controls, and lay the groundwork for safer AI adoption."
-  },
-  {
-   "title": "The EU AI Act Newsletter #115: Global Rules After the Midterms",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global",
-   "date": "2026-11-24T07:44:37.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The Commission questions OpenAI and Anthropic on safety incidents, civil society urges EU leaders to back full enforcement, and Brussels eyes a global AI deal after the US midterms."
   },
   {
    "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
@@ -373,20 +380,6 @@
    "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself. Conducted as a sort of pr"
   },
   {
-   "title": "Why Has California Led the Way on AI Regulation? (with Irene Liu)",
-   "link": "https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on",
-   "date": "2026-11-17T07:47:40.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
-  },
-  {
-   "title": "llm 0.37.3",
-   "link": "https://simonwillison.net/2026/Nov/16/llm/",
-   "date": "2026-11-16T23:57:26.000Z",
-   "source": "Simon Willison",
-   "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: "
-  },
-  {
    "title": "Ransomware Attacks Increase Behind AI, but Payments Decline",
    "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
    "date": "2026-11-16T19:56:05.000Z",
@@ -457,27 +450,6 @@
    "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers."
   },
   {
-   "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
-   "date": "2026-11-10T07:58:06.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The AI Office proposes requirements for independent external evaluators of GPAI models with systemic risk, and analysts examine the EU's testing capacity and gaps in incident reporting."
-  },
-  {
-   "title": "How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)",
-   "link": "https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really",
-   "date": "2026-11-03T07:31:14.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
-  },
-  {
-   "title": "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special",
-   "date": "2026-10-20T05:29:31.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The Scientific Panel briefs Virkkunen on recent incidents, the AI Office investigates OpenAI and Anthropic, and the first harmonised AI Act standard is published."
-  },
-  {
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
    "link": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
    "date": "2026-10-13T22:00:40.000Z",
@@ -492,25 +464,11 @@
    "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP T"
   },
   {
-   "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
-   "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
-   "date": "2026-10-06T05:34:16.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "The Commission backs an international AI safety monitoring body but faces criticism at home over the pace and resourcing of AI Act enforcement."
-  },
-  {
    "title": "From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)",
    "link": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
    "date": "2026-09-30T21:00:40.000Z",
    "source": "Embrace The Red",
    "summary": "Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft&rsquo;s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Mic"
-  },
-  {
-   "title": "How Does the EU AI Office Enforce the AI Act? (with Lucilla Sioli)",
-   "link": "https://artificialintelligenceact.substack.com/p/how-does-the-eu-ai-office-enforce",
-   "date": "2026-09-30T06:48:06.000Z",
-   "source": "EU AI Act Newsletter",
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law."
   }
  ]
 }
